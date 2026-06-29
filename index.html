@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moja Strona</title>
     <style>
-        /* Prosty, nowoczesny wygląd */
+        /* Jasnoszare tło strony */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f7f6;
+            background-color: #e5e5e5; /* Jasnoszary */
             color: #333;
             display: flex;
             flex-direction: column;
@@ -22,28 +22,32 @@
             margin-bottom: 30px;
         }
 
+        /* Czarne przyciski z białym tekstem i neonowo-różowym obramowaniem */
         button {
-            background-color: #007bff;
-            color: white;
-            border: none;
+            background-color: #000000; /* Czarny */
+            color: #ffffff; /* Biały tekst */
+            border: 3px solid #ff007f; /* Neonowy róż (stałe obramowanie) */
             padding: 12px 24px;
             margin: 0 10px;
             font-size: 16px;
             cursor: pointer;
             border-radius: 5px;
-            transition: background 0.3s ease;
+            font-weight: bold;
+            transition: opacity 0.2s
+ease;
         }
 
+        /* Delikatny efekt po najechaniu myszką (przycisk lekko jaśnieje, ale ramka się nie rusza) */
         button:hover {
-            background-color: #0056b3;
+            background-color: #1a1a1a;
         }
 
+        /* Okienko z tekstem */
         .content-box {
             background: white;
             padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 4px 6px
-rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
             max-width: 500px;
             width: 100%;
             text-align: center;
@@ -76,15 +80,18 @@ rgba(0,0,0,0.1);
         </div>
 
         <div id="part1" class="content">
-            <p>tekst 1</p> 
+            <p>O pewnej divie o imieniu Kasia <3
+Kasiu gdy Cię widzę nie sposób nie powiedzieć Ci jak pięknie w dany dzień wyglądasz,
+Choć jest to u ciebie codziennością to za każdym razem jestem tobą zachwycony twoim wyglądem, outfitem ( w końcu pięknej we wszystkim pięknie), przeuroczym uśmiechem i za każdym razem gdy się widzimy czy piszemy mam ochotę zrobić wszystko aby ten uśmiech nigdy nie zniknął z twojej twarzy.
+</p> 
         </div>
 
         <div id="part2" class="content">
-            <p>tekst 2</p>
+            <p>Jedes Mal, wenn ich an dich denke, möchte ich ins Auto steigen, zu dir kommen, dich umarmen und küssen. Ich könnte mich völlig in deinen Augen und deinem Körper verlieren. Ich kann nicht verbergen, wie sehr ich mich für dich interessiere – oder dass ich ständig an dich denke.</p>
         </div>
 
         <div id="part3" class="content">
-            <p>tekst 3</p>
+            <p>И всё же самое удивительное в тебе — это то, насколько ты прекрасна во всём. Твоя внешность и личное обаяние — это одно, но нельзя не упомянуть и твой характер: поистине исключительный во всех отношениях. Ты даришь мне чувство умиротворения — то, чего мне всегда не хватало, — и позволяешь ощущать себя в полной безопасности. Ты наполняешь мою жизнь теплом и радостью, даря нам множество незабываемых совместных мгновений.     Może mało zagadkowo więc na koniec M.M.J.P.T.A.M.S.N.D.C</p>
         </div>
         
     </div>
